@@ -1,0 +1,53 @@
+.navbar {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 24px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar-logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  padding-left: 0;
+  margin: 0;
+  gap: 90px;
+}
+
+.navbar-links li a,
+.navbar-links li button {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover,
+.navbar-links li button:hover {
+  color: #90caf9;
+}
+
+.navbar-user {
+  font-size: 14px;
+  background: #2196f3;
+  padding: 6px 30px;
+  border-radius: 20px;
+  max-width: 150px;
+}
